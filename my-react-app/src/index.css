@@ -1,0 +1,16 @@
+.welcome-meassage{
+  font-size:2em;
+  background-color:hsl(120,100%,40%);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
+}
+.login-propmt{
+    font-size:2em;
+  background-color:hsl(0, 100%, 40%);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
+}
