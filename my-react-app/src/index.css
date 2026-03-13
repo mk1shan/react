@@ -1,16 +1,10 @@
-.welcome-meassage{
+.list-category{
   font-size:2em;
-  background-color:hsl(120,100%,40%);
-  color:white;
-  padding:10px;
+  font-weight:bold;
+  color:hsl(0,0%,20%);
+  margin-bottm:10px;
+  text-align:center;
+  border:3px solid;
   border-radius:5px;
-  margin:0;
-}
-.login-propmt{
-    font-size:2em;
-  background-color:hsl(0, 100%, 40%);
-  color:white;
-  padding:10px;
-  border-radius:5px;
-  margin:0;
+  background-color:hsl(152, 86%, 62%);
 }

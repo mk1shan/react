@@ -1,19 +1,10 @@
+import Button from './Button.jsx';
+import ProfilePicture from './ProfilePicture.jsx';
 
-import Student from './Student.jsx'
-import UserGreeding from './UserGreeding.jsx';
-import List from './List.jsx';
 
 function App() {
  
- const fruits = [{id:1,name:"apple",calories:95},
-                {id:2,name:"orange",calories:45},
-                {id:3,name:"banana",calories:44}
-
- ];
-
- 
-  return (<List items={fruits} category=" Fruits"/>)
-  
+ return(<ProfilePicture/>)
 }
 
 export default App
