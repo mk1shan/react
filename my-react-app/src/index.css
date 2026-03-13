@@ -8,3 +8,9 @@
   border-radius:5px;
   background-color:hsl(152, 86%, 62%);
 }
+
+
+.counter-container{
+  text-align:ceter;
+  font-family:Arial,sans-serif;
+}
