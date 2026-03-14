@@ -1,5 +1,5 @@
 
-import MyComponent1 from './MyComponent1.jsx';
+import UpdateArray from './UpdateArray.jsx';
 
 
 
@@ -15,7 +15,7 @@ function App() {
 
 
 
-return(<MyComponent1/>)
+return(<UpdateArray/>)
 }
 
 export default App
