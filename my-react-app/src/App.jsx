@@ -1,5 +1,5 @@
 
-import UpdateArray from './UpdateArray.jsx';
+import ToDoList from './ToDoList.jsx';
 
 
 
@@ -15,7 +15,7 @@ function App() {
 
 
 
-return(<UpdateArray/>)
+return(<ToDoList/>)
 }
 
 export default App

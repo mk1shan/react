@@ -1,39 +1,102 @@
+
 body{
+  background-color: hsl(0,0%,10%);
+}
+
+.to-do-list{
   font-family:Arial,sans-serif;
-}
-
-
-.color-picker-container{
-  display:flex;
-  flex-direction:column;
-  align-item:center;
-
+  text-align:center;
+  margin-top:100px;
+  color:white;
 
 }
-
 
 h1{
-  margin:50px;
-  font-size:3rem;
+  font-size:4rem;
 }
 
-.color-display{
-  width:300px;
-  height:300px;
-  displayu:flex;
-  justify-content:center;
-  align-items:center;
-border-radius:25px;
-margin-bottom:25px;
-transition:0.25s ease;
+
+button{
+  font-size:1.7rem;
+  font-weight:bold;
+  padding:10px 20px;
+  color:white;
+  border:none;
+  border-radius:5px;
+  curosr:pointer;
+  transition:background-color 0.5s ease;
+}
+.add-button{
+  background-color: green
+}
+
+.add-button:hover{
+  background-color: green
+}
+
+.delete-button{
+  background-color: red
+}
+
+.delete-button:hover{
+  background-color: orange
+}
+
+
+
+
+.move-button{
+  background-color: blue
+}
+
+.move-button:hover{
+  background-color: green
+}
+
+
+.move-down{
+  background-color: blue;
+  margin-right:5px;
+}
+
+.move-down:hover{
+  background-color: green
+}
+
+
+input[type="text"]{
+
+font-size:1.6rem;
+padding:10px;
+border:2px solid white;
+
+
 
 }
 
-.color-display p {
-  color: hsl(0,0%,20%)
+ol{
+  padding:0;
+  
+}
+li{
+  font-size:2rem;
+  font-weight:bold;
+  padding:15px;
+
 }
 
-label{
-  font-size:1.5rem;
+.text{
+  flex:1;
+  flex-grow:1;
+  flex-shrink:1;
+  flex-basic:0%;
+
+}
+
+
+.delete-button, .move-button{
+  padding:8px 12px;
+  font-size:1.4rem;
+  margin-left:10px;
 
 }
